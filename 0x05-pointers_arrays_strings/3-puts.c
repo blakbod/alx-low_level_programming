@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _puts - function that prints a string, followed by a new line
@@ -9,11 +9,11 @@
 void _puts(char *str)
 
 {
-	int c;
+	int i;
 
-	for (c = 0; str[c] != 0; c++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-	_putchar(str[c]);
+	_putchar(str[i]);
 	}
 	_putchar('\n');
 }
